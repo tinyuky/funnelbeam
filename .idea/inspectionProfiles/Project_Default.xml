@@ -1,0 +1,43 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyChainedComparisonsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoreConstantInTheMiddle" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="7">
+            <item index="0" class="java.lang.String" itemvalue="sentry-sdk" />
+            <item index="1" class="java.lang.String" itemvalue="pytest" />
+            <item index="2" class="java.lang.String" itemvalue="freezegun" />
+            <item index="3" class="java.lang.String" itemvalue="clickhouse-driver" />
+            <item index="4" class="java.lang.String" itemvalue="python-fitbit" />
+            <item index="5" class="java.lang.String" itemvalue="bleach" />
+            <item index="6" class="java.lang.String" itemvalue="flower" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N801" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="log_provider" />
+          <option value="allowed_actions" />
+          <option value="action_data" />
+          <option value="_discount_percent" />
+          <option value="_available_paid_credits" />
+          <option value="_available_company_credits" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
